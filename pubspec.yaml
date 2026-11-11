@@ -1,18 +1,25 @@
 name: grok_dart
 description: >-
-  Official-quality Dart client for the xAI Grok API (work in progress, by
-  Talaria). Unofficial. Not affiliated with or endorsed by xAI.
-version: 0.0.1
-homepage: https://github.com/newtalaria/grok_dart
+  Idiomatic Dart client for the xAI Grok API. Chat completions (sync and
+  streaming), Responses API, tool calling, structured outputs, and models.
+version: 0.1.0
+homepage: https://www.newtalaria.com
 repository: https://github.com/newtalaria/grok_dart
 issue_tracker: https://github.com/newtalaria/grok_dart/issues
-license: MIT
+documentation: https://pub.dev/documentation/grok_dart/latest/
 topics:
   - ai
   - llm
+  - grok
+  - xai
+  - chat
 
 environment:
   sdk: ^3.5.0
 
+dependencies:
+  http: ^1.2.2
+
 dev_dependencies:
-  lints: ^5.0.0
+  test: ^1.25.8
+  very_good_analysis: ^7.0.0

@@ -1,0 +1,4 @@
+reporter: failures-only
+
+file_reporters:
+  json: .dart_tool/test-results.json
