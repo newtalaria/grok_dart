@@ -9,3 +9,6 @@ doc/api/
 coverage/
 *.iml
 .idea/
+
+# Test logs
+logs/
